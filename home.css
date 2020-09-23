@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(images/bkgd.jpg);
+  background-size: cover;
+  background-position: center;
+      align-items: center;
+  justify-content: center;
+  height: cover;
+
+font-family: 'PT Sans', sans-serif;
+}
+nav{
+	opacity: 80%;
+	background-color: black;
+
+}
+
+table{
+
+  text-transform: uppercase;
+}
+th{
+  text-align: center!important;
+}
+.panel{
+opacity: 90%;
+text-align: center;
+  justify-content: center;
+  }
+  .container{
+
+
+  }
+
+ .btn {
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.625rem;
+  letter-spacing: 0.3em;
+  color: rgba(223,190,106,0.7);
+  border-radius: 20%;
+  padding: 18px 80px 20px;
+  transition: all 0.7s ease-out;
+  background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid rgba(223,190,106,0.3);
+}
+
+.btn:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  color: #fff;
+  background-position:  center;
+}
+.message{
+  color: green !important;
+  font-size: medium;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  padding: 10px;
+  border-radius: 10px;  
+}

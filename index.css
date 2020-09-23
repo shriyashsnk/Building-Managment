@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+.btn {
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.625rem;
+  letter-spacing: 0.3em;
+  color: rgba(223,190,106,0.7);
+  border-radius: 20%;
+  padding: 18px 80px 20px;
+  transition: all 0.7s ease-out;
+  background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid rgba(223,190,106,0.3);
+}
+
+.btn:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  color: #fff;
+  background-position:  center;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(images/bkgd.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff!important;
+  
+font-family: 'PT Sans', sans-serif;
+}
+.container{
+    background-color: rgba(0, 0, 0,0.5);
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    border-radius: 20px;
+
+}
+.message {
+  color: red;
+  font-size: medium;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  backface-visibility: hidden;
+
+}
+.message-sucess{
+  color: green;
+  font-size: medium;
+  background-color: black;
+  text-align: center;
+  padding-top: 10px;
+  backface-visibility: hidden;
+
+}
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
